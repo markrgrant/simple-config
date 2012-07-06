@@ -1,0 +1,35 @@
+
+body {
+   font-family:helvetica;
+   font-size:20px;
+   font-weight:bold;
+   color:white;
+   text-align:center;
+}
+
+.category {
+    background-color:#555;
+    width:400px;
+    margin: 0px auto; 
+    color:white;
+    padding:10px;
+    opacity:0.5;
+}
+
+.option {
+   background-color:#aaa;
+   color:white;
+   height:30px;
+   line-height:30px;
+   margin:10px;
+}
+
+.option.selected {
+   background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(204,204,204,1)));  
+   border-color:black;
+   border-style:solid;
+   border-width:1px;
+   color:black;
+}
+
+

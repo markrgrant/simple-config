@@ -1,0 +1,20 @@
+<html>
+<head>
+<link rel=stylesheet type="text/css" href="css/main.css"></link>
+<script src="configure.js"></script>
+<script src="config.js"></script>
+<script>
+    function run() { 
+        configure(config, done);
+    }
+
+    function done(result) {
+        console.log(JSON.stringify(result)); 
+    }
+
+</script>
+<title>configure library test</title>
+</head>
+<body onload="run();">
+</body>
+</html>
