@@ -3,33 +3,45 @@ simple-config
 
 Transform a configuration definition object into a configuration object based on user input. 
 
-Use:
-  
+Use
+---
+```javascript
   function done(conf) {
   ...
   }
   
-  simple-config(<conf-defs>, done);
+  simple-config(conf-defs, done);
+```
 
-Dependencies:
+Dependencies
+------------
 
   document.body
   
-Types:
-
-    conf-defs ::= [<conf-def>*]
+  document.createElement
   
-     conf-def ::= {
-                   name : <conf-name>,
-                   description : <string>,
-                   options : [<conf-value>*]
+  document.onkeydown
+  
+  node.appendChild
+  
+  node.removeChild
+  
+Types
+-----
+```javascript
+    conf-defs = [conf-def*]
+  
+     conf-def = {
+                   name : conf-name,
+                   description : String,
+                   options : [conf-value*]
                   }
       
-         conf ::= {<conf-result>*}
+         conf = {conf-result*}
   
-  conf-result ::= <conf-name> : <conf-value>
+  conf-result = conf-name : conf-value
   
-   conf-value ::= <object>
+   conf-value = Object
    
-    conf-name ::= <string>
-
+    conf-name = String
+```
