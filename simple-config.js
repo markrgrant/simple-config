@@ -1,6 +1,6 @@
 
 
-function simple-config(data, done) {
+function configure(data, done) {
   
     var data = decorateData(data);
 
