@@ -1,16 +1,4 @@
-<<<<<<< HEAD
-The configure module takes the pathname of a configuration file
-and adds a sequence of views
-to the DOM. After receiving user input, the nodes are removed
-and an array of variable name - value pairs is returned.  
 
-To include the module: 
-
-<script src="path/to/configures.js"></script> 
-
-var conf = configure('path/to/config');
-
-=======
 simple-config
 =============
 
@@ -48,7 +36,7 @@ Types
                    name : conf-name,
                    description : String,
                    options : [conf-value*]
-                  }
+                }
       
          conf = {conf-result*}
   
@@ -58,4 +46,3 @@ Types
    
     conf-name = String
 ```
->>>>>>> 8417041648961972c3572bf0e246d945747e756c
