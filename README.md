@@ -1,4 +1,3 @@
-
 simple-config
 =============
 
@@ -11,7 +10,7 @@ Use
   ...
   }
   
-  simple-config(conf-defs, done);
+  configure(conf-defs, done);
 ```
 
 Dependencies
